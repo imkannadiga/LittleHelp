@@ -5,12 +5,13 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Little Help"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LittleHelp">
+        android:theme="@style/Theme.Screen1">
+
         <activity
-            android:name=".SignUpActivity"
+            android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

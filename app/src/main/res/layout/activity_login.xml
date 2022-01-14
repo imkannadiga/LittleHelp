@@ -35,15 +35,16 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Signin_Emailid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#80FFFFFF"
-            android:drawablePadding="12dp"
-            android:paddingBottom="19dp"
-            android:hint="Enter your Email"
             android:drawableStart="@drawable/ic_baseline_email_24"
             android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="12dp"
+            android:hint="Enter your Email"
             android:inputType="textEmailAddress"
+            android:paddingBottom="19dp"
             android:textColorHint="@color/purple_500"
             android:textSize="18sp"
             tools:layout_editor_absoluteX="49dp"
@@ -83,14 +84,15 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Signin_Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#90FFFFFF"
-            android:drawablePadding="12dp"
-            android:paddingBottom="19dp"
-            android:hint="Password"
             android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="12dp"
+            android:hint="Password"
             android:inputType="textPassword"
+            android:paddingBottom="19dp"
             android:textColorHint="@color/purple_500"
             android:textSize="18sp"
             tools:layout_editor_absoluteX="61dp"

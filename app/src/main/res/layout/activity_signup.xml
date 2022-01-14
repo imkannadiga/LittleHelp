@@ -289,7 +289,7 @@
             android:backgroundTint="#20FFFFFF"
             android:text="SIGN UP"
             android:textSize="18sp"
-            app:layout_constraintBaseline_toBottomOf="@id/confirm_password"
+
             app:layout_constraintBottom_toBottomOf="@+id/confirm_password"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
