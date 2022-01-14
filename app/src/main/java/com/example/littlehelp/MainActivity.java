@@ -2,5 +2,8 @@ package com.example.littlehelp;
 
 import android.app.Activity;
 
-public class MainActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
+
 }
